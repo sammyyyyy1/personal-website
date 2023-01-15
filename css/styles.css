@@ -7,16 +7,24 @@
 
     body {
         background-color: white;
-        margin: 0;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 0;
+        background-image: url("/5183000.jpg");
     }
 
-    .header{
+    .header {
         margin: 0;
-        padding: 50px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
         background-color: #FFF9F9;
         text-align: center;
         font-family: 'B612 Mono', monospace;
         color: darkslategrey;
+        opacity: 0.5;
     }
     .header > h1 {
         background-color:transparent;
@@ -26,16 +34,19 @@
         background-color:transparent;
         font-size: 30px;
     }
-    .links {
+    .menu {
         margin: 0;
-        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         background-color: #D6E5FA;
         text-align: center;
         font-family: 'B612 Mono', monospace;
         font-size: 30px
     }
 
-    .links > td {
+    .menu > td {
+        position: relative;
         margin-left: 100%;
         margin-right: 100%;
     }
@@ -57,21 +68,74 @@
         text-decoration: none;
         color: lightgoldenrodyellow;
     }
+
     a {
         text-decoration: none;
     }
-
-    .div-3 {
+    .section-1-child-1 {
         margin: 0;
-        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
         background-color: #BAABDA;
         font-family: 'B612 Mono', monospace;
-        font-size: 30px
-    }
-
-    .div-3 > table {
-        alignment: center;
-        padding: 30px;
+        font-size: 20px;
+        float: left;
+        position: relative;
         width: 50%;
+        height: 500px;
     }
 
+    .section-1-child-2 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        background-color: #D77FA1;
+        font-family: 'B612 Mono', monospace;
+        font-size: 20px;
+        float: left;
+        position: relative;
+        width: 50%;
+        height: 500px;
+    }
+
+
+    .animanga-table {
+        position: relative;
+        padding: 10%;
+    }
+
+    .animanga-table-title {
+        font-size: 24px;
+    }
+
+    .animanga-name {
+        text-align: left;
+
+    }
+
+    .animanga-stars {
+        text-align: right;
+    }
+
+    .text-table {
+        alignment: center;
+        position: relative;
+        padding: 10%;
+    }
+
+    .title {
+        text-align: left;
+        font-size: 24px;
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .text {
+        text-align: left;
+        font-size: 20px;
+    }
